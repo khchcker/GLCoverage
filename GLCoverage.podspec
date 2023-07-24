@@ -19,5 +19,6 @@ Pod::Spec.new do |s|
   s.author          = { 'hckerkhc'  => 'hckerkhc@gmail.com'}
   s.source          = { :git => 'https://github.com/khchcker/GLCoverage.git', :tag  => s.version.to_s}
   s.source_files    = 'GLCoverage/**/*.{sh,rb}'
+  s.platform     = :ios, '11.0'  # 仅支持iOS 8及更高版本
 
 end
